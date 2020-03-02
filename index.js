@@ -4,10 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send({
-    hi: 'there',
-    greeting: 'to you',
-    what: 'We love Star Trek',
-    alt: 'we do too'
+    hi: 'there'
   });
 });
 
